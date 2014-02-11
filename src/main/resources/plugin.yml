@@ -1,0 +1,8 @@
+name: NicksRequest
+version: 1.0
+main: com.codermason.nicks.Nicks
+author: codermason
+description: A simple nickname request plugin
+commands:
+  nicks:
+    description: Default NicksRequest command
