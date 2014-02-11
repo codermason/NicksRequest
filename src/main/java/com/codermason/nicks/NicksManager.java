@@ -1,19 +1,18 @@
 package com.codermason.nicks;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
+import com.codermason.nicks.util.Messenger;
+import com.earth2me.essentials.Essentials;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import com.codermason.nicks.util.Messenger;
-import com.earth2me.essentials.Essentials;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
-public class NicksManager { //what a messy class :P it was late
+    public class NicksManager {
 
 	private Map<String, String> playerNicks = new HashMap<String, String>();
 	private Essentials ess;
